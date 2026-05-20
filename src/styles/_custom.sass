@@ -1,30 +1,256 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
+    top: 10%
+    right: 75%
+    width: 100px
+    animation: girarYVolver 5s ease-in-out infinite
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 60%
+    right: -10%
+    width: 100px
+    animation: float1 3.5s ease-in-out infinite alternate
+
+@keyframes girarYVolver
+  0%
+    transform: rotate(0deg)
+  40%
+    transform: rotate(360deg)
+  60%
+    transform: rotate(360deg)
+  100%
+    transform: rotate(0deg)
 
 @keyframes float1
   0%
     transform: translateY(20px)
   100%
     transform: translateY(0px)
-  
 
-.banner-principal .tarjeta
-  background-position: left 50% !important
+.col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
+  flex: 0 0 auto !important
+  width: 45% !important
+  @media screen and (max-width: $bp-max-md)
+    width: 95% !important
+
 .banner-principal__row .banner-principal__img
-  width: 400px !important  
+  width: 450px !important
+  left: -40px
+  top: 0px
+  @media screen and (max-width: $bp-max-xl)
+    width:400px !important
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: white !important   
+  color: black !important   
 .banner-interno__titulo__icono i
   color: $color-primario
 figcaption
   font-weight: normal
- 
+
+.banner-principal
+  @media (max-width: $bp-max-md)
+    .tarjeta
+      background-image: url('../assets/curso/portada/tablet.svg') !important
+      background-repeat: no-repeat
+      background-size: cover
+      background-position: center
+    &__info
+      padding-top: 10% !important 
+      padding-right: 5% !important
+  @media (max-width: 767px) 
+    .tarjeta
+      background-image: url('../assets/curso/portada/movil.svg') !important
+      background-repeat: no-repeat
+      background-size: cover
+      background-position: center
+    &__info
+      padding-top: 15% !important 
+      padding-right: 5% !important
+      margin-bottom: 10% !important
+.banner-interno__fondo    
+  background-image: url("../assets/curso/portada/portada.svg") !important
+
+.titulo-principal.color-acento-contenido .titulo-principal__numero span 
+  color: black !important
+
+.barra-avance__boton--regresar span
+  color: white !important
+
+.titulo-sexto
+  border-left: 10px solid
+  padding: 6px 0 6px 8px
+  border-left-color: #FF94A5!important
+
+.titulo-segundo:after 
+  content: ''
+  display: block
+  height: 4.5px
+  width: 140px
+  border-left: solid 50px
+  border-left-color: #45248E
+  background-color: #C7BCDD
+
+.cen
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+  
+.img-t
+  width: auto
+  height: auto 
+.img-a
+  display: block
+  margin: auto
+
+
+.bloque-texto-g.color-pri
+  background-color: #C7BCDD
+
+.cajon.color-primario
+  background-color: #DDF1FE
+  &:before 
+    background-color: #45248E
+
+.cajon.color-secundario
+  background-color: #FEF0DE
+  &:before 
+    background-color: #966B37
+
+.color-ac
+  background-color: #FEF0DE
+
+.tit
+  background-color: #55B9FF
+  border-radius: 50px
+  width: fit-content
+  padding: 8px 20px 8px 65px
+  position: relative
+  display: inline-flex
+  align-items: center
+.tit img
+  width: 300px
+  height: auto
+  position: absolute
+  top: 50%
+  left: 0px
+  transform: translateY(-50%)
+  object-fit: contain
+  z-index: 1
+  pointer-events: none
+  @media only screen and (min-width: 768px) and (max-width: 1023px)
+    width: 360px
+  @media only screen and (max-width: 767px)
+    width: 300px
+
+.titb
+  background-color: #45248E
+  border-radius: 50px 
+  width: fit-content
+  padding: 8px 20px 8px 60px
+  position: relative
+  display: inline-flex
+  align-items: center
+  @media only screen and (min-width: 768px) and (max-width: 1023px)
+    padding: 8px 20px 8px 65px
+.titb img
+  width: 30px
+  height: 30px
+  position: absolute
+  top: 50%
+  left: 10px 
+  transform: translateY(-50%)
+  object-fit: contain
+  z-index: 1
+
+.bg1
+  background-color: #DDF1FE
+  border-radius: 18px 0px 0px 18px
+  @media only screen and (max-width: 767px)
+    border-radius: 20px
+  @media only screen and (min-width: 768px) and (max-width: 1023px)
+    border-radius: 18px 0px 0px 18px
+.bg2
+  background-color: #FEF0DE
+  border-radius: 0px
+  @media only screen and (max-width: 767px)
+    border-radius: 20px
+  @media only screen and (min-width: 768px) and (max-width: 1023px)
+    border-radius: 0px 18px 18px 0px
+.bg3
+  background-color: #FFEAED
+  border-radius: 0px 18px 18px 0px
+  @media only screen and (max-width: 767px)
+    border-radius: 20px
+  @media only screen and (min-width: 768px) and (max-width: 1023px)
+    border-radius: 20px
+
+.bg4
+  background-color: #CAEEE4
+
+.bg5
+  background-color: #FEF0DE
+  @media only screen and (min-width: 1024px) 
+    margin-left: -3.4rem
+  @media (min-width: 992px) 
+    .mx-lg-4 
+      margin-right: 1.5rem !important
+      margin-left: 2rem !important
+
+.cajon.color-acento-contenido
+  background-color: #CAEEE4
+  &:before 
+    background-color: #5FCDAD
+
+
+.sob1
+  margin-left: -9% 
+  margin-bottom: 0px
+  z-index: 2
+.crd--avatarHorizontal
+  position: relative
+  padding-right: 6rem
+  & > *
+    position: relative
+  p
+    margin-bottom: 0
+  &::before
+    position: absolute
+    content: ''
+    top: 0
+    right: 0
+    width: calc( 100% - 50px)
+    height: 100%
+    background-color: #DAD3E8
+    @media only screen and (max-width: 767px)
+      width: calc( 100% - 0px)
+    @media only screen and (min-width: 768px) and (max-width: 1023px)
+      width: calc( 100% - 0px)
+  @media (max-width: 1000px)
+    padding-right: 1rem
+.crd--first
+  &::before
+    background-color: #FFEAED
+    border-top-left-radius: 30px
+.crd--last
+  &::before
+    border-bottom-left-radius: 30px
+    background-color: #FEF0DE
+
+
+.tarjeta--slyder.b2
+  background-color: #DDF1FE
+  border-radius: 20px
+.bg6
+  background-color: #45248E
+.circl-arrow .slyder-f__btn i
+  font-size: 1.2rem
+  background-color: #45248E
+  color: #FED4DB
+  height: 46px
+  width: 46px
+  padding: 5px
+  border-radius: 500px
+  display: flex
+  justify-content: center
+  align-items: center
