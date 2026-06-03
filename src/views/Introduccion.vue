@@ -8,7 +8,7 @@
           i.fas.fa-info
       h1 Introducción
     
-    p.mb-5 Las competencias ciudadanas constituyen un conjunto de habilidades que se desarrollan y practican en la vida cotidiana, permitiendo a las personas interactuar de manera consciente, respetuosa y constructiva en sociedad. Estas competencias implican reconocer la otredad, comprender las dinámicas sociales y asumir un papel activo en la construcción de entornos más justos y democráticos. En este sentido, no solo se adquieren de manera implícita, sino que requieren un proceso formativo intencionado que fortalezca las dimensiones cognitivas, emocionales y comunicativas del individuo.
+    p.mb-5(data-aos="fade-right") Las competencias ciudadanas constituyen un conjunto de habilidades que se desarrollan y practican en la vida cotidiana, permitiendo a las personas interactuar de manera consciente, respetuosa y constructiva en sociedad. Estas competencias implican reconocer la otredad, comprender las dinámicas sociales y asumir un papel activo en la construcción de entornos más justos y democráticos. En este sentido, no solo se adquieren de manera implícita, sino que requieren un proceso formativo intencionado que fortalezca las dimensiones cognitivas, emocionales y comunicativas del individuo.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
@@ -25,7 +25,7 @@
     .cajon.color-primario.p-lg-5.p-4.mb-5(data-aos="fade-right")
       p.mb-0 En conjunto, las competencias comunicativas y cognitivas se articulan para formar ciudadanos capaces de participar activamente en la sociedad, argumentar de manera fundamentada, escuchar al otro y contribuir a la resolución pacífica de conflictos. Por ello, este componente formativo está orientado a fortalecer dichas habilidades, proporcionando estrategias que permitan su desarrollo integral y su aplicación en diversos contextos, especialmente en aquellos donde el diálogo, la reflexión crítica y la toma de decisiones éticas son esenciales.
 
-    .row.justify-content-center.align-items-center           
+    .row.justify-content-center.align-items-center(data-aos="fade-left")           
       .col-lg-12
         figure
           .video

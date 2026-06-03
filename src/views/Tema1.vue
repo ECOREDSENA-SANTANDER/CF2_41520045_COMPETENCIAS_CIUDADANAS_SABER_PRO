@@ -34,13 +34,13 @@
             .h5.mb-2 Canal
             p.mb-0 Es el medio a través del cual se transmite el mensaje, por ejemplo, la voz, un texto escrito, una imagen o medios digitales. 
 
-    .tit.mb-5(data-aos="fade-left")
+    .tit.mb-5(data-aos="fade-right")
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 Ejemplo aplicado &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     
-    p.mb-4 Cuando una persona dice: “Respete las señales de tránsito”, está transmitiendo un mensaje que busca generar conciencia y promover comportamientos responsables en la vía. La comprensión de este mensaje dependerá del contexto, el lenguaje utilizado y la disposición del receptor.
+    p.mb-4(data-aos="fade-left") Cuando una persona dice: “Respete las señales de tránsito”, está transmitiendo un mensaje que busca generar conciencia y promover comportamientos responsables en la vía. La comprensión de este mensaje dependerá del contexto, el lenguaje utilizado y la disposición del receptor.
     
-    .row.justify-content-center.align-items-center.mb-5         
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")        
       .col-lg-12
         figure
           .video
@@ -66,12 +66,12 @@
             br
             p.mb-0 Para que las relaciones interpersonales sean adecuadas, es esencial desarrollar habilidades como la escucha activa y la capacidad de expresarse de manera clara y auténtica. Estas competencias favorecen la comprensión mutua y contribuyen a la resolución pacífica de conflictos.
     
-    p.mb-5 Además, las relaciones interpersonales son clave para conocer las ideas, pensamientos y emociones de los demás, así como para expresar puntos de vista propios. En este proceso, la comunicación puede darse de forma oral, escrita o gestual, dependiendo del contexto y la intención comunicativa.
+    p.mb-5(data-aos="fade-right") Además, las relaciones interpersonales son clave para conocer las ideas, pensamientos y emociones de los demás, así como para expresar puntos de vista propios. En este proceso, la comunicación puede darse de forma oral, escrita o gestual, dependiendo del contexto y la intención comunicativa.
 
-    .cajon.color-secundario.p-lg-5.p-4.mb-5(data-aos="fade-right")
+    .cajon.color-secundario.p-lg-5.p-4.mb-5(data-aos="fade-left")
       p.mb-0 En este sentido, la asertividad desempeña un papel fundamental. Según Rodríguez (s. f.), una persona asertiva es aquella que expresa sus ideas y sentimientos de manera honesta, ya sean positivos o negativos, sin agredir ni desvalorizar al otro. La asertividad implica comunicar con respeto, claridad y empatía, evitando mensajes hirientes. Por ello, para que sea efectiva, debe estar acompañada de consideración y elegancia en el trato hacia los demás, permitiendo así fortalecer las relaciones y lograr una comunicación más constructiva.
 
-    .row.justify-content-center.align-items-center.mb-5         
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")         
       .col-lg-12
         figure
           .video
@@ -85,7 +85,7 @@
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 Maneras de enfrentar las relaciones interpersonales 
     
-    p.mb-5 Aguilar y Vargas (2010) clasifican los modos de asumir las relaciones interpersonales a partir del tipo de respuesta que adopta el interlocutor. De esta manera, se identifican tres formas principales: la respuesta ansiosa, la respuesta asertiva y la respuesta agresiva, cada una con características específicas que influyen en la calidad de la interacción y en la forma en que se gestionan los derechos propios y los de los demás.
+    p.mb-5(data-aos="fade-right") Aguilar y Vargas (2010) clasifican los modos de asumir las relaciones interpersonales a partir del tipo de respuesta que adopta el interlocutor. De esta manera, se identifican tres formas principales: la respuesta ansiosa, la respuesta asertiva y la respuesta agresiva, cada una con características específicas que influyen en la calidad de la interacción y en la forma en que se gestionan los derechos propios y los de los demás.
 
     .titb.mb-5(data-aos="fade-left")
       img(:src="require('@/assets/curso/tema1/sub1.svg')" alt='Imagen decorativa')
@@ -162,7 +162,7 @@
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 Ejemplo de formulación y resolución de problemas en la comunicación
 
-    p.mb-5 Un aprendiz tiene un conflicto con un compañero porque siente que no lo escuchan durante un trabajo en grupo. El problema surge cuando el estudiante habla (comunica sus ideas), pero el otro solo oye sin prestar atención ni comprender el mensaje.
+    p.mb-5(data-aos="fade-right") Un aprendiz tiene un conflicto con un compañero porque siente que no lo escuchan durante un trabajo en grupo. El problema surge cuando el estudiante habla (comunica sus ideas), pero el otro solo oye sin prestar atención ni comprender el mensaje.
 
     .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
       .col-lg-12.offset-lg-2

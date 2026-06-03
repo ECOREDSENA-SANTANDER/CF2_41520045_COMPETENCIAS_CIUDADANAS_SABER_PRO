@@ -17,9 +17,9 @@
             p.mb-3(data-aos="fade-left") Las competencias clave se entienden como la forma en que cualquier ciudadano utiliza sus recursos personales (habilidades, actitudes, conocimientos y experiencias) para actuar de manera activa y responsable en la construcción de su proyecto de vida, tanto en el ámbito personal como social. En el contexto educativo actual, estas competencias se organizan en áreas fundamentales como la comunicación lingüística, el plurilingüismo, el razonamiento matemático y científico (Ciencia, Tecnología, Ingeniería y Matemáticas – STEM, por sus siglas en inglés), la competencia digital, el desarrollo personal y social, la ciudadanía, el emprendimiento, y la conciencia y expresión cultural.
             p.mb-0(data-aos="fade-left") En el contexto de la prueba, estas competencias se centran principalmente en la comprensión de textos; es decir, en la capacidad de entender su significado, extraer la información relevante y hacerla consciente. Esto permite evaluar habilidades como interpretar, argumentar y proponer (ICFES, s. f.). Dichas habilidades implican clasificar y analizar información, establecer relaciones entre ideas y generar propuestas que contribuyan a la estructuración de documentos y al desarrollo de argumentaciones sólidas. De esta manera, se logra otorgar sentido a los contenidos y procesar de forma consciente la información.
 
-    p.mb-4 Para desarrollar competencias como la interpretación, la argumentación y la proposición, es fundamental un estudio eficaz en las diferentes áreas del conocimiento. Esto implica que el aprendiz debe cuestionarse constantemente sobre lo que lee, aprende, escucha e interactúa, con el fin de fortalecer su capacidad de interpretar, emitir opiniones fundamentadas en argumentos válidos, coherentes y concisos, y proponer alternativas frente a los aprendizajes adquiridos. Así, las competencias clave no solo favorecen el desempeño académico, sino también la formación integral del individuo para enfrentar los retos de la vida cotidiana y social.
+    p.mb-4(data-aos="fade-right") Para desarrollar competencias como la interpretación, la argumentación y la proposición, es fundamental un estudio eficaz en las diferentes áreas del conocimiento. Esto implica que el aprendiz debe cuestionarse constantemente sobre lo que lee, aprende, escucha e interactúa, con el fin de fortalecer su capacidad de interpretar, emitir opiniones fundamentadas en argumentos válidos, coherentes y concisos, y proponer alternativas frente a los aprendizajes adquiridos. Así, las competencias clave no solo favorecen el desempeño académico, sino también la formación integral del individuo para enfrentar los retos de la vida cotidiana y social.
     
-    p.mb-4 A continuación, se presentan las competencias clave actualizadas junto con su respectiva descripción:
+    p.mb-4(data-aos="fade-left") A continuación, se presentan las competencias clave actualizadas junto con su respectiva descripción:
 
     .row.justify-content-center.align-items-center.mb-0(data-aos="fade-right")
       .col-lg-3.d-none.d-lg-block
@@ -124,13 +124,13 @@
       .col-lg-12
         img(src='@/assets/curso/tema2/13.png')
     
-    p.mb-5 Se centra en el sujeto, quien interpreta y reconstruye la realidad a partir de sus propias experiencias, intereses y emociones. En este sentido, el conocimiento es una construcción personal, por lo que pueden existir múltiples interpretaciones de un mismo fenómeno, todas influenciadas por la vivencia individual.
+    p.mb-5(data-aos="fade-right") Se centra en el sujeto, quien interpreta y reconstruye la realidad a partir de sus propias experiencias, intereses y emociones. En este sentido, el conocimiento es una construcción personal, por lo que pueden existir múltiples interpretaciones de un mismo fenómeno, todas influenciadas por la vivencia individual.
 
     .tit.mb-5(data-aos="fade-left")
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 Intersubjetividad &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-    p.mb-0 Reconoce que el sujeto es un ser social y que el conocimiento también se construye en interacción con otros. Este enfoque hace referencia a la posibilidad de generar significados compartidos, que son válidos dentro de un grupo o contexto social. En el desarrollo de las competencias cognitivas, la intersubjetividad permite establecer acuerdos, interpretar la realidad de manera conjunta y comprender elementos de la vida cultural y social.
+    p.mb-0(data-aos="fade-right") Reconoce que el sujeto es un ser social y que el conocimiento también se construye en interacción con otros. Este enfoque hace referencia a la posibilidad de generar significados compartidos, que son válidos dentro de un grupo o contexto social. En el desarrollo de las competencias cognitivas, la intersubjetividad permite establecer acuerdos, interpretar la realidad de manera conjunta y comprender elementos de la vida cultural y social.
 
     separador
     #t_2_2.titulo-segundo.mb-5
@@ -148,16 +148,16 @@
             br
             p.mb-0 No obstante, estas decisiones pueden carecer de validez o efectividad si no están sustentadas en procesos formativos sólidos que permitan dar solución real a los conflictos. Para que el ejercicio de la ciudadanía sea verdaderamente significativo, es fundamental que el aprendiz se mantenga en constante actualización, fortaleciendo sus conocimientos y desarrollando una conciencia crítica que favorezca su participación política y democrática.
     
-    p.mb-4 La toma de decisiones no solo constituye una responsabilidad individual, sino también social, ya que sus efectos impactan en la comunidad. Por ello, resulta indispensable promover procesos de formación continua, así como la lectura crítica y reflexiva de textos académicos, que contribuyan al desarrollo de habilidades cognitivas, sociales y éticas necesarias para una participación activa y responsable en la sociedad.
+    p.mb-4(data-aos="fade-right") La toma de decisiones no solo constituye una responsabilidad individual, sino también social, ya que sus efectos impactan en la comunidad. Por ello, resulta indispensable promover procesos de formación continua, así como la lectura crítica y reflexiva de textos académicos, que contribuyan al desarrollo de habilidades cognitivas, sociales y éticas necesarias para una participación activa y responsable en la sociedad.
     
-    .row.justify-content-center.align-items-center.mb-5           
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")           
       .col-lg-12
         figure
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/B4dAnhEA6YU?si=ASQgj2_5kVjFdCIY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         figcaption Video. Ejemplo de toma de decisiones
 
-    .cajon.color-primario.p-lg-5.p-4.mb-0(data-aos="fade-right")
+    .cajon.color-primario.p-lg-5.p-4.mb-0(data-aos="fade-left")
       p.mb-0 Se invita al aprendiz a explorar este video para comprender la importancia de la toma de decisiones y cómo influye en las relaciones y en la manera en que se analizan situaciones y se eligen alternativas.
 
 
