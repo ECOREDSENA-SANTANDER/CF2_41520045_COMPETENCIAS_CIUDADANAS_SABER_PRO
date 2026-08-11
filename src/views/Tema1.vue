@@ -75,7 +75,7 @@
       .col-lg-12
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/nfJPSfcl_tM?si=jluGYP-g3g0GN8J4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/OMd5P7X08G0?si=AEwKr62b-CNqw13Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         figcaption Video. Criterios de comunicación asertiva
 
     .cajon.color-primario.p-lg-5.p-4.mb-5(data-aos="fade-right")
