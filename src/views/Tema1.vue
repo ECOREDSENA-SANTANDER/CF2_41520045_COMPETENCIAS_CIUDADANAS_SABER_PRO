@@ -35,11 +35,14 @@
             p.mb-0 Es el medio a través del cual se transmite el mensaje, por ejemplo, la voz, un texto escrito, una imagen o medios digitales. 
 
     .tit.mb-5(data-aos="fade-right")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Ejemplo aplicado &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     
-    p.mb-4(data-aos="fade-left") Cuando una persona dice: “Respete las señales de tránsito”, está transmitiendo un mensaje que busca generar conciencia y promover comportamientos responsables en la vía. La comprensión de este mensaje dependerá del contexto, el lenguaje utilizado y la disposición del receptor.
+    p.mb-5(data-aos="fade-left") Cuando una persona dice: “Respete las señales de tránsito”, está transmitiendo un mensaje que busca generar conciencia y promover comportamientos responsables en la vía. La comprensión de este mensaje dependerá del contexto, el lenguaje utilizado y la disposición del receptor.
     
+    .cajon.color-primario.p-lg-5.p-4.mb-5(data-aos="fade-right")
+      p.mb-0 Se invita al aprendiz a explorar este video para comprender la importancia de la comunicación y cómo influye en las relaciones y en la forma en que se transmiten y comprenden los mensajes.
+
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")        
       .col-lg-12
         figure
@@ -47,11 +50,8 @@
             iframe(width="560" height="315" src="https://www.youtube.com/embed/v0kevK8IZng?si=4cA-Ig1Sz9KDFuZj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         figcaption Video. Comunicándonos
 
-    .cajon.color-primario.p-lg-5.p-4.mb-5(data-aos="fade-right")
-      p.mb-0 Se invita al aprendiz a explorar este video para comprender la importancia de la comunicación y cómo influye en las relaciones y en la forma en que se transmiten y comprenden los mensajes.
-
     .tit.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Relaciones interpersonales &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
     .row.justify-content-center.align-items-center.mb-5
@@ -71,6 +71,9 @@
     .cajon.color-secundario.p-lg-5.p-4.mb-5(data-aos="fade-left")
       p.mb-0 En este sentido, la asertividad desempeña un papel fundamental. Según Rodríguez (s. f.), una persona asertiva es aquella que expresa sus ideas y sentimientos de manera honesta, ya sean positivos o negativos, sin agredir ni desvalorizar al otro. La asertividad implica comunicar con respeto, claridad y empatía, evitando mensajes hirientes. Por ello, para que sea efectiva, debe estar acompañada de consideración y elegancia en el trato hacia los demás, permitiendo así fortalecer las relaciones y lograr una comunicación más constructiva.
 
+    .cajon.color-primario.p-lg-5.p-4.mb-5(data-aos="fade-right")
+      p.mb-0 Se invita al aprendiz a analizar este video para reconocer los principios de la comunicación asertiva y su impacto en la expresión clara de ideas, el respeto por los demás y la mejora de las relaciones interpersonales.
+
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")         
       .col-lg-12
         figure
@@ -78,17 +81,14 @@
             iframe(width="560" height="315" src="https://www.youtube.com/embed/OMd5P7X08G0?si=AEwKr62b-CNqw13Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         figcaption Video. Criterios de comunicación asertiva
 
-    .cajon.color-primario.p-lg-5.p-4.mb-5(data-aos="fade-right")
-      p.mb-0 Se invita al aprendiz a analizar este video para reconocer los principios de la comunicación asertiva y su impacto en la expresión clara de ideas, el respeto por los demás y la mejora de las relaciones interpersonales.
-
     .tit.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Maneras de enfrentar las relaciones interpersonales 
     
     p.mb-5(data-aos="fade-right") Aguilar y Vargas (2010) clasifican los modos de asumir las relaciones interpersonales a partir del tipo de respuesta que adopta el interlocutor. De esta manera, se identifican tres formas principales: la respuesta ansiosa, la respuesta asertiva y la respuesta agresiva, cada una con características específicas que influyen en la calidad de la interacción y en la forma en que se gestionan los derechos propios y los de los demás.
 
     .titb.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub1.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub1.svg')")
       h3.mb-0.text-white Tipos de respuesta en las relaciones interpersonales
 
     .row.justify-content-center.align-items-stretch.mb-0(data-aos="fade-right")
@@ -116,14 +116,14 @@
     .bg4.mb-5
       .row.justify-content-center.align-items-center
         .col-lg-5.col-md-8.col-12.mb-lg-0.mb-0(data-aos="fade-right")
-          img(src='@/assets/curso/tema1/6.png', alt='')
+          img(src='@/assets/curso/tema1/6.png')
         .col-lg-7(data-aos="fade-left")
           .p-4
-            img.mb-3.img-t.d-none.d-lg-block(src='@/assets/curso/tema1/7.svg', alt='')
+            img.mb-3.img-t.d-none.d-lg-block(src='@/assets/curso/tema1/7.svg')
             p.mb-0(data-aos="fade-left") La formulación y resolución de problemas es una competencia fundamental que permite identificar, analizar y enfrentar situaciones de la vida cotidiana de manera organizada y efectiva. Implica reconocer una situación problemática, comprender sus causas, plantear posibles alternativas de solución y tomar decisiones fundamentadas en el análisis crítico. Este proceso no solo fortalece el pensamiento lógico y reflexivo, sino que también favorece la creatividad, la autonomía y la capacidad de adaptación. En el contexto ciudadano, desarrollar esta competencia resulta clave para abordar conflictos, proponer soluciones constructivas y participar de manera responsable en la transformación del entorno.
 
     .tit.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 ¿Hablar o comunicar? &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
@@ -143,7 +143,7 @@
       p.mb-0 Esta contradicción, conocida como “doble mensaje”, puede generar confusión en quien recibe la información, dificultando la interpretación y aumentando la probabilidad de conflictos. En consecuencia, lograr coherencia entre lo verbal y lo no verbal es clave para una comunicación clara, efectiva y respetuosa.
 
     .tit.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 ¿Oír o escuchar? &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
     .row.justify-content-center.align-items-start.mb-5(data-aos="fade-right")
@@ -159,7 +159,7 @@
       p.mb-0 Es importante reconocer que en cualquier dificultad comunicativa tanto el emisor como el receptor tienen responsabilidad. La comunicación es un proceso compartido, por lo que no se trata de atribuir la culpa a uno solo, sino de asumir una actitud consciente para mejorar la forma en que se expresa y se escucha.
 
     .tit.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Ejemplo de formulación y resolución de problemas en la comunicación
 
     p.mb-5(data-aos="fade-right") Un aprendiz tiene un conflicto con un compañero porque siente que no lo escuchan durante un trabajo en grupo. El problema surge cuando el estudiante habla (comunica sus ideas), pero el otro solo oye sin prestar atención ni comprender el mensaje.
@@ -172,7 +172,7 @@
               .row.align-items-center
                 .col-auto
                   figure
-                    img.d-none.d-lg-block(src="@/assets/curso/tema1/10.svg", alt="alt")
+                    img.d-none.d-lg-block(src="@/assets/curso/tema1/10.svg")
                 .col
                   h5.mb-0 Formulación del problema
                   p.mb-0 Existe una falta de escucha activa que dificulta la comunicación y genera malentendidos en el equipo.
@@ -180,7 +180,7 @@
               .row.align-items-center
                 .col-auto
                   figure
-                    img.d-none.d-lg-block(src="@/assets/curso/tema1/11.svg", alt="alt")
+                    img.d-none.d-lg-block(src="@/assets/curso/tema1/11.svg")
                 .col
                   h5.mb-0 Resolución del problema
                   p.mb-0 El aprendiz decide expresar su inconformidad de manera clara y respetuosa, solicitando que se le escuche con atención. El compañero, por su parte, practica la escucha activa, prestando atención, evitando interrupciones y haciendo preguntas para comprender mejor.
@@ -188,12 +188,12 @@
               .row.align-items-center
                 .col-auto
                   figure
-                    img.d-none.d-lg-block(src="@/assets/curso/tema1/12.svg", alt="alt")
+                    img.d-none.d-lg-block(src="@/assets/curso/tema1/12.svg")
                 .col
                   h5.mb-0 Resultado
                   p.mb-0 Se mejora la comunicación, se fortalecen las relaciones interpersonales y se logra un trabajo en equipo más efectivo.
           .col-lg-4.sob1.d-none.d-lg-block
-            img.img-t(src="@/assets/curso/tema1/13.svg", alt="alt")
+            img.img-t(src="@/assets/curso/tema1/13.svg")
     
 
 </template>
