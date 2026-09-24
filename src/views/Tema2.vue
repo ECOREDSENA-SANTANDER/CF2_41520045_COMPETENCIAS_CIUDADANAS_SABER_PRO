@@ -51,7 +51,7 @@
             .row.justify-content-center.align-items-center.mb-0
               .col-12
                 .bg6.p-1.mb-4 
-                  h4.text-center.text-white.mb-0.ps-1.pe-1 Competencia matemática y en ciencia, tecnología e ingeniería 
+                  h4.text-center.text-white.mb-0 Competencia matemática y en ciencia, tecnología e ingeniería 
             p.mb-0.text-center Capacidad para aplicar el razonamiento matemático y comprender fenómenos científicos y tecnológicos para resolver problemas.
           .tarjeta.tarjeta--slyder.b2.p-3
             .row.justify-content-center.align-items-center.mb-4.mt-3

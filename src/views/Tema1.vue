@@ -9,9 +9,12 @@
       
     .cajon.color-secundario.p-lg-5.p-4.mb-5(data-aos="fade-right")
       p.mb-0 La comunicación es un proceso fundamental en la interacción humana, mediante el cual se transmite información, ideas o emociones entre dos o más personas. Para que este proceso sea efectivo, intervienen los siguientes elementos:
-
+    
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
+        .titulo-sexto.mb-4
+          h5 Figura 1. 
+          | Elementos de la comunicación
         ImagenInfografica.color-acento-botones
           template(v-slot:imagen)
             img.img-t.img-a(src='@/assets/curso/tema1/1.svg', alt='Presenta el proceso comunicativo: un emisor transmite un mensaje a un receptor mediante un código y un canal, dentro de un contexto determinado.')
@@ -47,7 +50,7 @@
       .col-lg-12
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/v0kevK8IZng?si=4cA-Ig1Sz9KDFuZj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/v0kevK8IZng?si=FbLECEuHdaismiKb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         figcaption Video. Comunicándonos
 
     .tit.mb-5(data-aos="fade-left")
