@@ -33,7 +33,7 @@
             .row.justify-content-center.align-items-center.mb-0
               .col-12
                 .bg6.p-1.mb-4 
-                  h4.text-center.text-white.mb-0.ps-1.pe-1 Comunicación lingüística
+                  h4.text-center.text-white.mb-0 Comunicación lingüística
             p.mb-0.text-center Capacidad para expresar e interpretar ideas, pensamientos, sentimientos y hechos de forma oral y escrita en diferentes contextos.
           .tarjeta.tarjeta--slyder.b2.p-3
             .row.justify-content-center.align-items-center.mb-4.mt-3
@@ -42,7 +42,7 @@
             .row.justify-content-center.align-items-center.mb-0
               .col-12
                 .bg6.p-1.mb-4 
-                  h4.text-center.text-white.mb-0.ps-1.pe-1 Competencia plurilingüe
+                  h4.text-center.text-white.mb-0 Competencia plurilingüe
             p.mb-0.text-center Habilidad para comunicarse en diferentes lenguas, comprendiendo y respetando la diversidad lingüística y cultural.
           .tarjeta.tarjeta--slyder.b2.p-3
             .row.justify-content-center.align-items-center.mb-4.mt-3
@@ -60,7 +60,7 @@
             .row.justify-content-center.align-items-center.mb-0
               .col-12
                 .bg6.p-1.mb-4 
-                  h4.text-center.text-white.mb-0.ps-1.pe-1 Competencia digital
+                  h4.text-center.text-white.mb-0 Competencia digital
             p.mb-0.text-center Uso seguro, crítico y responsable de las tecnologías de la información para el aprendizaje, el trabajo y la participación social.
           .tarjeta.tarjeta--slyder.b2.p-3
             .row.justify-content-center.align-items-center.mb-4.mt-3
@@ -69,7 +69,7 @@
             .row.justify-content-center.align-items-center.mb-0
               .col-12
                 .bg6.p-1.mb-4 
-                  h4.text-center.text-white.mb-0.ps-1.pe-1 Competencia personal, social y de aprender a aprender
+                  h4.text-center.text-white.mb-0 Competencia personal, social y de aprender a aprender
             p.mb-0.text-center Capacidad para gestionar el propio aprendizaje, regular emociones, mantener el bienestar y relacionarse adecuadamente con otros.
           .tarjeta.tarjeta--slyder.b2.p-3
             .row.justify-content-center.align-items-center.mb-4.mt-3
@@ -78,7 +78,7 @@
             .row.justify-content-center.align-items-center.mb-0
               .col-12
                 .bg6.p-1.mb-4 
-                  h4.text-center.text-white.mb-0.ps-1.pe-1 Competencia ciudadana
+                  h4.text-center.text-white.mb-0 Competencia ciudadana
             p.mb-0.text-center Habilidad para participar activamente en la sociedad, actuando de manera responsable, ética y democrática.
           .tarjeta.tarjeta--slyder.b2.p-3
             .row.justify-content-center.align-items-center.mb-4.mt-3
@@ -87,7 +87,7 @@
             .row.justify-content-center.align-items-center.mb-0
               .col-12
                 .bg6.p-1.mb-4 
-                  h4.text-center.text-white.mb-0.ps-1.pe-1 Competencia emprendedora
+                  h4.text-center.text-white.mb-0 Competencia emprendedora
             p.mb-0.text-center Capacidad para transformar ideas en acciones mediante la creatividad, la iniciativa, la planificación y la toma de decisiones.
           .tarjeta.tarjeta--slyder.b2.p-3
             .row.justify-content-center.align-items-center.mb-4.mt-3
@@ -96,7 +96,7 @@
             .row.justify-content-center.align-items-center.mb-0
               .col-12
                 .bg6.p-1.mb-4 
-                  h4.text-center.text-white.mb-0.ps-1.pe-1 Competencia en conciencia y expresión culturales
+                  h4.text-center.text-white.mb-0 Competencia en conciencia y expresión culturales
             p.mb-0.text-center Capacidad para comprender, valorar y expresar ideas y emociones a través de diversas manifestaciones culturales y artísticas.
     
 
