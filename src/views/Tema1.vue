@@ -12,9 +12,6 @@
     
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
-        .titulo-sexto.mb-4
-          h5 Figura 1. 
-          | Elementos de la comunicación
         ImagenInfografica.color-acento-botones
           template(v-slot:imagen)
             img.img-t.img-a(src='@/assets/curso/tema1/1.svg', alt='Presenta el proceso comunicativo: un emisor transmite un mensaje a un receptor mediante un código y un canal, dentro de un contexto determinado.')
