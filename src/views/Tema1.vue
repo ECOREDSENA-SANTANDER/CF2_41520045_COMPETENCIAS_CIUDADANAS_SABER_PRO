@@ -14,7 +14,7 @@
       .col-lg-12
         ImagenInfografica.color-acento-botones
           template(v-slot:imagen)
-            img.img-t.img-a(src='@/assets/curso/tema1/1.svg', alt='Presenta el proceso comunicativo: un emisor transmite un mensaje a un receptor mediante un código y un canal, dentro de un contexto determinado.')
+            img.img-t.img-a(src='@/assets/curso/tema1/1.svg', alt='')
           .tarjeta.color-ac.p-4(x="21.7%" y="34.5%" numero="+")
             .h5.mb-2 Emisor
             p.mb-0 Es la persona que inicia la comunicación. Su función es transmitir un mensaje de manera clara y comprensible.
